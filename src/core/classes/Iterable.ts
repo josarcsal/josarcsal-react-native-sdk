@@ -22,6 +22,7 @@ import { IterableAuthResponse } from './IterableAuthResponse';
 import type { IterableCommerceItem } from './IterableCommerceItem';
 import { IterableConfig } from './IterableConfig';
 import { IterableLogger } from './IterableLogger';
+import { IterableInAppManager } from '../../inApp';
 
 const RNIterableAPI = NativeModules.RNIterableAPI;
 const RNEventEmitter = new NativeEventEmitter(RNIterableAPI);
@@ -45,6 +46,11 @@ const RNEventEmitter = new NativeEventEmitter(RNIterableAPI);
  */
 /* eslint-enable tsdoc/syntax */
 export class Iterable {
+  /**
+   * Manager for in app messages
+   */
+  static inAppManager = new IterableInAppManager();
+
   /**
    * Logger for the Iterable SDK
    * Log level is set with {@link IterableLogLevel}
