@@ -1,5 +1,5 @@
 {
-  "name": "@iterable/react-native-sdk",
+  "name": "@josarcsal/iterable-react-native-sdk",
   "version": "2.0.0",
   "description": "Iterable SDK for React Native.",
   "source": "./src/index.tsx",
@@ -125,7 +125,6 @@
   "workspaces": [
     "example"
   ],
-  "packageManager": "yarn@3.6.1",
   "commitlint": {
     "extends": [
       "@commitlint/config-conventional"
