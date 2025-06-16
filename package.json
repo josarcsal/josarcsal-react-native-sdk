@@ -4,7 +4,6 @@
   "description": "Iterable SDK for React Native.",
   "source": "./src/index.tsx",
   "main": "./lib/module/index.js",
-  "private": true,
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
     ".": {
